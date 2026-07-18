@@ -1,3 +1,10 @@
-// server için gerekli olanları burada ayarlayın
+const express = require('express');
+const cors = require('cors');
+const server = express();
+const postsRouter = require('./posts/posts-router');
 
-// posts router'ını buraya require edin ve bağlayın
+server.use(express.json());
+server.use(cors());
+server.use('/api/posts', postsRouter);
+
+module.exports = server;

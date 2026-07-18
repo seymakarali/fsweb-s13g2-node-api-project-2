@@ -7,9 +7,10 @@
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand --silent",
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run",
     "sendresults": "node sendTestResults.js"
-
   },
   "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "knex": "^2.0.0",
     "sqlite3": "^5.0.8"
   },
@@ -18,9 +19,9 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.15.0",
     "jest": "^28.1.0",
+    "jest-ctrf-json-reporter": "^0.0.9",
     "nodemon": "^2.0.16",
-    "supertest": "^6.2.3",
-    "jest-ctrf-json-reporter": "^0.0.9"
+    "supertest": "^6.2.3"
   },
   "repository": {
     "type": "git",

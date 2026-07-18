@@ -1,0 +1,206 @@
+{
+  "results": {
+    "tool": {
+      "name": "jest"
+    },
+    "summary": {
+      "tests": 17,
+      "passed": 17,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1784372608033,
+      "stop": 1784372608559
+    },
+    "tests": [
+      {
+        "name": "[0] sanity check",
+        "duration": 1,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js"
+      },
+      {
+        "name": "server.js [GET] /api/posts [1] doğru gönderi sayısı alıyor",
+        "duration": 8,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [GET] /api/posts"
+      },
+      {
+        "name": "server.js [GET] /api/posts [2] tüm postları alıyor",
+        "duration": 3,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [GET] /api/posts"
+      },
+      {
+        "name": "server.js [GET] /api/posts/:id [3] id ye göre doğru postları alıyor",
+        "duration": 3,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [GET] /api/posts/:id"
+      },
+      {
+        "name": "server.js [GET] /api/posts/:id [4] post yoksa 404 yanıtlıyor",
+        "duration": 1,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [GET] /api/posts/:id"
+      },
+      {
+        "name": "server.js [POST] /api/posts [5] 201 yanıtlıyor",
+        "duration": 9,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [POST] /api/posts"
+      },
+      {
+        "name": "server.js [POST] /api/posts [6] yeni postu döndürüyor",
+        "duration": 3,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [POST] /api/posts"
+      },
+      {
+        "name": "server.js [POST] /api/posts [7] title ve contents yokken 400 yanıtlıyor",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [POST] /api/posts"
+      },
+      {
+        "name": "server.js [PUT] /api/posts/:id [8] güncellenen postu döndürüyor",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [PUT] /api/posts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/posts/:id [9] güncellenen veriyi veritabanına kaydediyor",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [PUT] /api/posts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/posts/:id [10] bad id durumunda doğru mesaj ve yanıt",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [PUT] /api/posts/:id"
+      },
+      {
+        "name": "server.js [PUT] /api/posts/:id [11] responds with the correct message & status code on validation problem",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [PUT] /api/posts/:id"
+      },
+      {
+        "name": "server.js [DELETE] /api/posts/:id [12] post yoksa 404 yanıtlıyor",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [DELETE] /api/posts/:id"
+      },
+      {
+        "name": "server.js [DELETE] /api/posts/:id [13] silinen postu döndürüyor",
+        "duration": 1,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [DELETE] /api/posts/:id"
+      },
+      {
+        "name": "server.js [DELETE] /api/posts/:id [14] silineni vtden de siliyor",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [DELETE] /api/posts/:id"
+      },
+      {
+        "name": "server.js [GET] /api/posts/:id/comments [15] post yoksa 404 yanıtlıyor",
+        "duration": 1,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [GET] /api/posts/:id/comments"
+      },
+      {
+        "name": "server.js [GET] /api/posts/:id/comments [16] verilen idli postun yorumları döndürülüyor",
+        "duration": 2,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "/Users/seyma/fsweb-s13g2-node-api-project-2/codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "codegrade_mvp.test.js > server.js > [GET] /api/posts/:id/comments"
+      }
+    ]
+  }
+}
